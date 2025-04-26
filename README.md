@@ -1,5 +1,11 @@
 
 # 📈 SpeedTest Monitor
+# 📈 SpeedTest Monitor
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mbrenes26)
+
+Sistema completo para el monitoreo automatizado de la velocidad de internet, con alertas en Telegram y dashboard web en tiempo real.
+...
 
 Sistema completo para el monitoreo automatizado de la velocidad de internet, con alertas en Telegram y dashboard web en tiempo real.
 
