@@ -90,7 +90,7 @@ cd SpeedTestMonitor
 
 ## 📬 Contacto
 
-Proyecto desarrollado y documentado por **Mario** 🚀  
+Proyecto desarrollado y documentado por [**Mario** 🚀](https://www.linkedin.com/in/mbrenes26) 
 ¡Un ejemplo de automatización, monitoreo y documentación profesional!
 
 ---
