@@ -147,7 +147,7 @@ if ($speedTestResult) {
     
 
     # 🚨 Enviar alerta si la velocidad de descarga baja de 6 Mbps
-    if (($data.DownloadSpeed -lt 9) -or ($data.UploadSpeed -lt 9)) {
+    if (($data.DownloadSpeed -lt 6) -or ($data.UploadSpeed -lt 6)) {
         $mensaje = @"
 🚨 *Alerta de Velocidad Baja*
 Fecha: $(Get-Date -Format 'yyyy-MM-dd HH:mm')
