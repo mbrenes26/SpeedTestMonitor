@@ -1,0 +1,2 @@
+2025-04-25 17:45:53 - Error General: Exception calling "GetBytes" with "1" argument(s): "Value cannot be null. (Parameter 'chars')"
+2025-04-25 18:00:23 - Error General: SpeedTest no devolvió salida después de 2 intentos.

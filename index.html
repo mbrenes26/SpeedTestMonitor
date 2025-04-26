@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpeedTest Monitor</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="dashboard.css">
+
+    <style>
+      /* Fallback básico por si no carga dashboard.css */
+      body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 1em;
+          background-color: #f8f8f8;
+          color: #333;
+      }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>📈 SpeedTest Monitor</h1>
+        <div class="controls">
+            <label for="startDate">Desde:</label>
+            <input type="date" id="startDate">
+            <label for="endDate">Hasta:</label>
+            <input type="date" id="endDate">
+            <button onclick="filtrarDatos()">Filtrar</button>
+            <button onclick="resetearFiltro()">Reset</button>
+            <button onclick="toggleModoOscuro()">🌙</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="ultimoResultado">
+            <h2>Último Resultado</h2>
+            <p id="ultimoDetalle">Cargando...</p>
+        </section>
+
+        <section class="chart-container">
+            <canvas id="speedChart"></canvas>
+        </section>
+    </main>
+
+    <footer>
+        <small>Desarrollado por Mario 🚀</small>
+    </footer>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>

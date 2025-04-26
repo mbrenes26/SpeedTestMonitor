@@ -1,0 +1,38 @@
+[
+  {
+    "FechaHora": "2025-04-25 18:01:26",
+    "Download": 9.27,
+    "Upload": 2.34,
+    "Latency": 27.4
+  },
+  {
+    "FechaHora": "2025-04-25 18:11:13",
+    "Download": 5.07,
+    "Upload": 6.79,
+    "Latency": 19.49
+  },
+  {
+    "FechaHora": "2025-04-25 18:21:03",
+    "Download": 7.59,
+    "Upload": 1.64,
+    "Latency": 15.0
+  },
+  {
+    "FechaHora": "2025-04-25 18:23:05",
+    "Download": 11.0,
+    "Upload": 1.87,
+    "Latency": 16.23
+  },
+  {
+    "FechaHora": "2025-04-25 18:44:10",
+    "Download": 8.84,
+    "Upload": 8.47,
+    "Latency": 15.56
+  },
+  {
+    "FechaHora": "2025-04-25 18:44:54",
+    "Download": 8.54,
+    "Upload": 10.18,
+    "Latency": 15.72
+  }
+]
